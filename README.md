@@ -1,4 +1,5 @@
-#Snippy
+# Snippy
+
 poor mans text snippet expander
 
 Written by "mhwombat": https://bbs.archlinux.org/viewtopic.php?id=71938&p=2
@@ -32,5 +33,7 @@ To use:
       ((mod4Mask, xK_s), spawn "/path/to/snippy")
 4. Use your shortcut and select the option to output.
 
+# type-it.sh
 
-
+Similar idea, but just types what is in your clipboard buffer to current window. Good for Java-based Ipmi windows and similar. 
+Bind to a keyboard key for use.
