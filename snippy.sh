@@ -30,7 +30,7 @@
 #
 DIR=${HOME}/.snippy
 APPS="xdotool xsel dmenu"
-DMENU_ARGS="-i -p 'snippy>' -nb #FFF000 -b"
+DMENU_ARGS="-i -l 20  -p 'snippy>' -nb #AA0000 -b "
 TMPFILE="/tmp/.snippy.tmp"; :>$TMPFILE
 # if nothing happens, try "xdotool click 2", "xdotool key ctrl+v" or "xdotool key ctrl+shift+v"
 #GUIPASTE="xdotool click 2" 
